@@ -22,8 +22,7 @@ $button_class = "";
 $template = basename(get_page_template());
 if ($template == "rds-landing.php" && isset($args["page_templates"]["landing_page"]["announcement_and_nav_toggle"]) && $args["page_templates"]["landing_page"]["announcement_and_nav_toggle"] == false) {
     $button_class = "d-none";
-}	global $rdsTemplateDataGlobal;
-        $args = $rdsTemplateDataGlobal;
+}
 ?>
 <div class="container-fluid bc_nav_container_mobile d-lg-none ui_kit_mobile_nav mobile_nav_type_A">
     <div class="level-3-background"></div>

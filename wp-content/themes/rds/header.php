@@ -30,7 +30,7 @@ $navbar_type = get_theme_mod("understrap_navbar_type", "collapse");
         <meta name="format-detection" content="telephone=no">
         <link rel="profile" href="http://gmpg.org/xfn/11">
         <?php wp_head(); ?>
-        
+
     
     </head>
 

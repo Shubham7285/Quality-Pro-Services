@@ -77,7 +77,7 @@ echo '
                   <span class="title-class true_white ' . $title_class . ' heading_title d-block mb-0 no_hover_underline text_25 line_height_36 font_default text_bold  sm_text_24 sm_line_height_29 text-uppercase">' . $heading . '</span> 
                </div>
                <div class="true_white ' . $button_class . ' text-lg-end pl-0 py-lg-0 ps-lg-4 pe-lg-0 px-0">
-                  <a id="' . $id . '" class="cta_link no_hover_underline" href="' . $href . '" >
+                  <a id="' . $id . '" class="cta_link no_hover_underline" href="' . $href . '" target="' . $target . '">
                      <div class="true_white cta_link text_25 line_height_42 font_default  d-block text_normal no_hover_underline sm_text_24 sm_line_height_29 text-uppercase">' . $buttonText . '</div>
                   </a>
                </div>
